@@ -1,0 +1,35 @@
+a.nav-link{
+    margin-left: 8rem;
+    font-weight: bold;
+}
+
+div#sub_header{
+    margin-bottom: 10px;
+}
+
+div.jumbotron.jumbotron-fluid{
+    background-image: url(../image/super-sale.png);
+    background-size: cover;
+    height: 50%;
+    
+}
+
+#section_head{
+    text-align: center;
+}
+
+.list-group-item{
+    border: none;
+}
+
+#left_card{
+    margin-left: 10px;
+}
+
+#right_card{
+    margin-right: 10px;
+}
+
+#feature_card{
+    margin-bottom: 10px;
+}

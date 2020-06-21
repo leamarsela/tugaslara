@@ -1,0 +1,132 @@
+body{
+    /* background-color: #dfdfdf;
+    background-image: url('gambar/circle.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right top; */
+    background: #dfdfdf url('gambar/circle.png') no-repeat fixed right;
+    font-family: sans-serif;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+    display: inline;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    display: inline;
+}
+
+#text_pendek{
+    font-size: 24px;
+    font-weight: bold;
+    background: yellow;
+    width: 50%;
+    height: 200px;
+    max-width: 30%;
+    max-height: 100px;
+    /* visibility: hidden; */
+    display: none;
+}
+
+#text_panjang{
+    text-align: justify;
+    text-indent: 30px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    line-height: 15px;
+}
+
+#menu_wrap{
+    /* margin-bottom: 50px;
+    margin-left: 50px; */
+    margin: 10px 0 50px 0;
+}
+
+.menu{
+    display: inline-block;
+    /* height: 50px;
+    width: 100px; */
+    text-decoration: none;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+}
+
+.menu:link{
+    background: grey;
+    color: white;
+}
+
+.menu:visited{
+    background: grey;
+}
+
+.menu:hover{
+    background: green;
+}
+
+.menu:active{
+    background: white;
+}
+
+/* mengatur posisi di css */
+/* static relative absolute fixed */
+
+/* #menu_member{
+    position: absolute;
+    top: 70px;
+    left: 20px;
+}
+
+#parent_h1{
+    position: relative;
+    top: 100px;
+}
+
+#h1_member{
+    background: red;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    z-index: -1;
+}
+
+#parent_h2{
+    position: relative;
+    top: 100px;
+}
+
+#h2_member{
+    background: yellow;
+    position: fixed;
+    top: 100px;
+    left: 20px;
+    z-index: -2;
+} */
+
+table{
+    float: right;
+    margin-right: 20px;
+}
+
+#div_baru{
+    clear: both;
+}
+
+
+ul, ol, dl{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 33.33%
+}
+
+#copyright{
+    text-align: center;
+}
